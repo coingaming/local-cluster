@@ -61,7 +61,7 @@ defmodule LocalCluster.MixProject do
       # Production dependencies
       { :global_flags, "~> 1.0" },
       # Local dependencies, not shipped with the app
-      { :ex_doc, "~> 0.16", optional: true, only: [ :docs ] }
+      { :ex_doc, "~> 0.16", optional: true, only: [ :dev ] }
     ]
   end
 end
